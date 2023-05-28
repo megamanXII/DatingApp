@@ -1,0 +1,16 @@
+COMANDOS DOTNET:
+
+1. dotnet new sln --> Crea una solución en la ruta especificada
+2. dotnet new webapi -n API --> Para crear la API en la ruta especificada
+3. dotnet sln -h --> Ayuda y descripcion de las funciones que puede ofrecer el comando sln 
+4. dotnet sln add API --> Agrega el proyecto API dentro de la solución
+5. dotnet sln list --> Lista los proyectos contenidos en la solución
+
+* VER Capitulo 7 del Curso que hay configuraciones adicionales
+
+6. dotnet tool list -g --> Para ver los paquetes instalados a nivel global
+7. Se instala nuget dotnet-ef (Entity Framework) --> leccion 13
+8. Tuve problemas para generar la base de datos de sqlLite, no creaba la tabla EFMigrationsHistory, y esto era debido a que en el appsettings.Development.json no tenía el orden de las llaves correcto y la sintaxis del connectionstring estaba errada. --- Tema 14
+9. El DataContext permite accesar los objetos definidos en la Base de Datos y en su clase son definidos eestos objetos --- tema 15
+10. Se hace uso de Postman para probar los ActionResult --- Tema 15
+
