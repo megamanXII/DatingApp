@@ -13,4 +13,5 @@ COMANDOS DOTNET:
 8. Tuve problemas para generar la base de datos de sqlLite, no creaba la tabla EFMigrationsHistory, y esto era debido a que en el appsettings.Development.json no tenía el orden de las llaves correcto y la sintaxis del connectionstring estaba errada. --- Tema 14
 9. El DataContext permite accesar los objetos definidos en la Base de Datos y en su clase son definidos eestos objetos --- tema 15
 10. Se hace uso de Postman para probar los ActionResult --- Tema 15
+11. dotnet new gitignore: Crea este archivo para ignorar lo que se va a versionar.
 
