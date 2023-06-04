@@ -14,4 +14,8 @@ COMANDOS DOTNET:
 9. El DataContext permite accesar los objetos definidos en la Base de Datos y en su clase son definidos eestos objetos --- tema 15
 10. Se hace uso de Postman para probar los ActionResult --- Tema 15
 11. dotnet new gitignore: Crea este archivo para ignorar lo que se va a versionar.
-
+12. Creando ya el proyecto de Angular de DatingApp, para poder listar los usuarios que vienen de la API, es necesario importar HttpClientModule de @angular/common/http en el app.module.ts
+    implementar la interfaz OnInit con su respectivo método ngOnInit() --> Tema 23
+13. Para poder enviar la petición a la API es necesario habilitar el CORS en el program.cs de la API --> Tema 24 
+14. Se instala ngx-bootstrap, bootstrap y font-awesome y estos son configurados en el archivo angular.json ---> Tema 26
+15. Descarga e instalación de certificado de seguridad para el front-end client. Las referencias se realizan en angular.json ---> Tema 28
